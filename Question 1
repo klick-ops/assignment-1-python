@@ -1,0 +1,15 @@
+#Write a program to plot a line graph representing the temperature readings over a week: 20, 22,
+19, 23, 21, 24, 20
+
+import matplotlib.pyplot as plt
+
+# Temperature readings over a week
+days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+temperatures = [20, 22, 19, 23, 21, 24, 20]
+
+plt.plot(days, temperatures, marker='o', color='magenta', linestyle='-')
+plt.title("Weekly Temperature Readings")
+plt.xlabel("Days")
+plt.ylabel("Temperature (°C)")
+plt.grid(True)
+plt.show()
