@@ -1,0 +1,11 @@
+import numpy as np
+from scipy import integrate
+
+# Function z = x^2 + y^2
+def f(x, y):
+    return x**2 + y**2
+
+# Double integral over the square [0, 1] x [0, 1]
+volume, error = integrate.dblquad(f, 0, 1, lambda x: 0, lambda x: 1)
+
+print(f"Volume under the surface z = x^2 + y^2 over [0,1]x[0,1] is approximately: {volume:.4f}")
