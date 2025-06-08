@@ -1,0 +1,7 @@
+| Feature                 | Compiled Languages                                           | Interpreted Languages                                   |
+| ----------------------- | ------------------------------------------------------------ | ------------------------------------------------------- |
+| **Execution**           | Entire code is translated into machine code before execution | Code is translated and executed line-by-line at runtime |
+| **Speed**               | Generally faster at runtime                                  | Generally slower due to real-time interpretation        |
+| **Error Detection**     | Errors are detected at compile time                          | Errors are detected during execution                    |
+| **Examples**            | C, C++, Rust, Go                                             | Python, JavaScript, Ruby                                |
+| **Platform Dependency** | Often platform-specific (compiled for OS/architecture)       | Usually more portable across platforms                  |
